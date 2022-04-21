@@ -1,0 +1,61 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@font-face {
+    font-family: Cherish;
+    src: url('./assets/cherish.otf');
+}
+.navbar-1 {
+  height: 110px !important;
+  background-color: rgba(0, 3, 13, 0.2) !important;
+  .logo {
+    width: 70px;
+  }
+  .link {
+    color: white !important;
+    font-family: "Montserrat", sans-serif !important;
+    font-size: 16px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-right: 12px;
+    margin-left: 12px;
+  }
+}
+.navbar-nav {
+  justify-content: center;
+  align-items: center;
+}
+
+@media (min-width: 992px) {
+  .navbar-expand-lg .navbar-nav {
+    flex-grow: 1;
+  }
+}
+
+.navbar-collapse{
+    margin-top: 10px;
+}
+
+.links{
+    display: none !important;
+}
+@media (min-width: 992px) {
+    .links{
+        display: flex !important;
+    }
+  }
+
+  .offcanvas{
+      background-color: #190743 !important;
+  }
+  .btn-close{
+      color: white !important;
+  }
+  .button{
+      color: #fff !important;
+      background-color: #e25d45 !important;
+      border-color: #e24529 !important;
+      padding: 10px 26px !important;
+      font-size: 20px !important;
+      font-weight: 700 !important;
+      font-family: Cherish !important;
+      border-radius: 18px !important;
+  }
