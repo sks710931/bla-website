@@ -1,18 +1,22 @@
-import { Button } from "bootstrap";
-import React from "react";
+
+import React, { useEffect, useState } from "react";
 import {
   Navbar,
   Container,
   Nav,
-  NavDropdown,
   Offcanvas,
 } from "react-bootstrap";
 import logo from "../assets/logo.png";
 export const Header = () => {
+  const [showTime, setShowTime] = useState(0);
+  useEffect(() => {
+    const datum = new Date(Date.UTC(2022, 4, 5, 0, 0, 0));
+    setShowTime(datum.getTime());
+  }, []);
   return (
     <Navbar
       collapseOnSelect
-      sticky
+      sticky="top"
       expand="lg"
       className="navbar-1"
       variant="dark"
@@ -35,7 +39,16 @@ export const Header = () => {
             FAQ
           </Nav.Link>
         </Nav>
-        <a className="btn button links" rel="noreferrer" target="_blank" href="https://mint.boredlionapes.com">Mint Now</a>
+        {
+          showTime < Date.now() && (<a
+            className="btn button links"
+            rel="noreferrer"
+            target="_blank"
+            href="https://mint.boredlionapes.com"
+          >
+            Mint Now
+          </a>)
+        }
         <Navbar.Toggle aria-controls="offcanvasNavbar" />
         <Navbar.Offcanvas
           id="offcanvasNavbar"
@@ -59,7 +72,14 @@ export const Header = () => {
               <Nav.Link className="link" href="#faq">
                 FAQ
               </Nav.Link>
-              <Nav.Link className="btn button">Mint Now</Nav.Link>
+              {
+                 showTime < Date.now() &&(<Nav.Link
+                  href="https://mint.boredlionapes.com"
+                  className="btn button"
+                >
+                  Mint Now
+                </Nav.Link>)
+              }
             </Nav>
           </Offcanvas.Body>
         </Navbar.Offcanvas>
