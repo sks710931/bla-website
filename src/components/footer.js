@@ -18,7 +18,7 @@ export const Footer = () => {
         >
           <img src={twitter} alt="twitter" />
         </a>
-        <a href="https://discord.gg/MVsP6zkp" target="_blank" rel="noreferrer">
+        <a href="https://discord.gg/KXVtPmGu4H" target="_blank" rel="noreferrer">
           <img src={discord} alt="discord" />
         </a>
         <a

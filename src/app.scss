@@ -74,7 +74,24 @@
   width: 100vw;
   margin-top: -110px;
 }
-
+.cont{
+  .socials {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    a {
+      margin: 6px;
+      &:hover {
+        opacity: 0.7;
+      }
+      img {
+        width: 30px;
+        height: 30px;
+      }
+    }
+  }
+}
 .minter {
   height: 400px;
   background-color: #e25d45;

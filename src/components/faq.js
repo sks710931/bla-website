@@ -16,79 +16,48 @@ export const FAQ = () => {
               <Accordion.Item eventKey="0">
                 <Accordion.Header>What is an NFT?</Accordion.Header>
                 <Accordion.Body>
-                  <p>NFT stands for 'non-fungible token'.</p>
+                  <p>A non-fungible token (NFT) is a digital asset on a blockchain with a unique identification. Therefore, each NFT is unique to the buyer. </p>
 
                   <p>
-                    A NFT is basically data that is accounted for in a digital
-                    ledger, and that data represents something specific and
-                    unique.
-                  </p>
-
-                  <p>
-                    A NFT can, for example, represent a unique piece of art or a
-                    game token.
+                  It represents real-world items, like artwork. 
                   </p>
                 </Accordion.Body>
               </Accordion.Item>
               <Accordion.Item eventKey="1">
-                <Accordion.Header>How can i ghet an NFT?</Accordion.Header>
+                <Accordion.Header>How can I purchase a Bored Lion Apes (BLA) NFT?</Accordion.Header>
                 <Accordion.Body>
                   <p>
-                    It will be available for purchase on our website through an
-                    initial sale.
+                  The BLA NFT will be available on this website until all the NFTS are sold out.
                   </p>{" "}
-                  <p>
-                    At the time of purchase, a randomly selected NFT will be
-                    minted on the blockchain and delivered to your wallet and
-                    OpenSea account.
-                  </p>{" "}
-                  <p>
-                    Once the public sale is closed, you can get a Lion Ape on
-                    the secondary market (on OpenSea).
-                  </p>
+                  <ul>
+                    <li>Download the MetaMask extension on your Chrome browser and link your Ethereum wallet. </li>
+                    <li>
+                    Make sure you have the full amount of ETH in your wallet to purchase the NFT + gas fees.
+                    </li>
+                    <li>Approve the transaction on MetaMask.</li>
+                  </ul>
                 </Accordion.Body>
               </Accordion.Item>
               <Accordion.Item eventKey="2">
-                <Accordion.Header>How to purchase one?</Accordion.Header>
+                <Accordion.Header>Can I choose the NFT I want? </Accordion.Header>
                 <Accordion.Body>
                   <p>
-                    The easiest way is to install a MetaMask extension in your
-                    Chrome browser and link your Ethereum wallet to it.
+                  No, you will mint a randomly selected NFT on the blockchain. 
                   </p>{" "}
-                  <p>
-                    Ensure you have enough ETH in your wallet to cover the cost
-                    of a NFT plus the associated transaction (gas) fees.
-                  </p>{" "}
-                  <p>
-                    Approve the transaction on MetaMask and you are all set.
-                  </p>
-                  <p>
-                    The Lion Ape will be available to mint on our official
-                    website.
-                  </p>
                 </Accordion.Body>
               </Accordion.Item>
               <Accordion.Item eventKey="3">
-                <Accordion.Header>What is the total supply?</Accordion.Header>
+                <Accordion.Header>How much is the mint price?</Accordion.Header>
                 <Accordion.Body>
-                  <p>10,000 unique NFT's will be created.</p>{" "}
+                  <p>The mint price is 0.16 ETH + gas fees.</p>{" "}
                 </Accordion.Body>
               </Accordion.Item>
               <Accordion.Item eventKey="4">
                 <Accordion.Header>
-                  How much does it cost to mint an NFT ?
+                Where can I view my NFT after minting?
                 </Accordion.Header>
                 <Accordion.Body>
-                  <p>Mint Price will be 0.2 ETH + Gas.</p>{" "}
-                </Accordion.Body>
-              </Accordion.Item>
-              <Accordion.Item eventKey="5">
-                <Accordion.Header>Where can i view my NFT ?</Accordion.Header>
-                <Accordion.Body>
-                  <p>
-                    Once minted, you'll just need to login into your OpenSea
-                    account to view your NFTs.
-                  </p>{" "}
+                  <p>Your NFT will be delivered to your wallet and you will be able to view it in your OpenSea account. </p>{" "}
                 </Accordion.Body>
               </Accordion.Item>
             </Accordion>

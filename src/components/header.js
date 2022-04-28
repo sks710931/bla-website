@@ -1,11 +1,8 @@
-
 import React, { useEffect, useState } from "react";
-import {
-  Navbar,
-  Container,
-  Nav,
-  Offcanvas,
-} from "react-bootstrap";
+import { Navbar, Container, Nav, Offcanvas } from "react-bootstrap";
+import twitter from "../assets/twitter.svg";
+import discord from "../assets/discord.svg";
+import insta from "../assets/instagram.svg";
 import logo from "../assets/logo.png";
 export const Header = () => {
   const [showTime, setShowTime] = useState(0);
@@ -39,16 +36,40 @@ export const Header = () => {
             FAQ
           </Nav.Link>
         </Nav>
-        {
-          showTime < Date.now() && (<a
+
+        <div className="socials links">
+          <a
+            href="https://twitter.com/boredlionapes"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <img src={twitter} alt="twitter" />
+          </a>
+          <a
+            href="https://discord.gg/KXVtPmGu4H"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <img src={discord} alt="discord" />
+          </a>
+          <a
+            href="https://www.instagram.com/boredlionapes_nft/"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <img src={insta} alt="instagram" />
+          </a>
+        </div>
+        {showTime < Date.now() && (
+          <a
             className="btn button links"
             rel="noreferrer"
             target="_blank"
             href="https://mint.boredlionapes.com"
           >
             Mint Now
-          </a>)
-        }
+          </a>
+        )}
         <Navbar.Toggle aria-controls="offcanvasNavbar" />
         <Navbar.Offcanvas
           id="offcanvasNavbar"
@@ -72,14 +93,14 @@ export const Header = () => {
               <Nav.Link className="link" href="#faq">
                 FAQ
               </Nav.Link>
-              {
-                 showTime < Date.now() &&(<Nav.Link
+              {showTime < Date.now() && (
+                <Nav.Link
                   href="https://mint.boredlionapes.com"
                   className="btn button"
                 >
                   Mint Now
-                </Nav.Link>)
-              }
+                </Nav.Link>
+              )}
             </Nav>
           </Offcanvas.Body>
         </Navbar.Offcanvas>
