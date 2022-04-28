@@ -7,7 +7,7 @@ import logo from "../assets/logo.png";
 export const Header = () => {
   const [showTime, setShowTime] = useState(0);
   useEffect(() => {
-    const datum = new Date(Date.UTC(2022, 4, 5, 0, 0, 0));
+    const datum = new Date(Date.UTC(2022, 4, 14, 0, 0, 0));
     setShowTime(datum.getTime());
   }, []);
   return (
