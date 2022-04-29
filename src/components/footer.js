@@ -12,7 +12,7 @@ export const Footer = () => {
       <h4>Bored Lion Apes</h4>
       <div className="socials">
         <a
-          href="https://twitter.com/boredlionapes"
+          href="https://twitter.com/boredlion_apes?s=21&t=O__E2OmJupaSL9E8csSUmQ"
           target="_blank"
           rel="noreferrer"
         >
@@ -22,7 +22,7 @@ export const Footer = () => {
           <img src={discord} alt="discord" />
         </a>
         <a
-          href="https://www.instagram.com/boredlionapes_nft/"
+          href="https://www.instagram.com/boredlionapes/"
           target="_blank"
           rel="noreferrer"
         >
