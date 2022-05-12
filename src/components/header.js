@@ -46,7 +46,7 @@ export const Header = () => {
             <img src={twitter} alt="twitter" />
           </a>
           <a
-            href="https://discord.gg/KXVtPmGu4H"
+            href="https://discord.gg/fPWMrWvPEX"
             target="_blank"
             rel="noreferrer"
           >

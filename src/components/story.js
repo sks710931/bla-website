@@ -43,7 +43,7 @@ export const Story = () => {
               additional perks within our metaverse Private Island for Lazy Lion
               Apes NFT holders.
             </p>
-            <a href="https://discord.gg/MVsP6zkp" target="_blank" rel="noreferrer" className="btn button">Join Discord</a>
+            <a href="https://discord.gg/fPWMrWvPEX" target="_blank" rel="noreferrer" className="btn button">Join Discord</a>
           </Col>
         </Row>
       </Container>

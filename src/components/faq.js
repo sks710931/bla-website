@@ -49,7 +49,7 @@ export const FAQ = () => {
               <Accordion.Item eventKey="3">
                 <Accordion.Header>How much is the mint price?</Accordion.Header>
                 <Accordion.Body>
-                  <p>The mint price is 0.16 ETH + gas fees.</p>{" "}
+                  <p>The mint price is 0.085 ETH + gas fees.</p>{" "}
                 </Accordion.Body>
               </Accordion.Item>
               <Accordion.Item eventKey="4">
