@@ -2,6 +2,7 @@
 import './app.scss';
 import './bootstrap.css';
 import { Banner } from './components/banner';
+import { Benefits } from './components/benefits';
 import { FAQ } from './components/faq';
 import { Footer } from './components/footer';
 import { Header } from './components/header';
@@ -17,6 +18,7 @@ function App() {
       <Banner />
       <Minter />
       <Story />
+      <Benefits />
       <Roadmap />
       <Team />
       <FAQ />

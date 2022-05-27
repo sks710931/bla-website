@@ -38,12 +38,19 @@ export const Story = () => {
               Lion Ape NFTs hosted on the Ethereum blockchain. Each NFT is
               algorithmically generated using a combination of multiples
               attributes such as hair, eyes, clothing and much more. By joining
-              the community, each holder will have access to every metaverse we
-              develop and enter in the Web 3.0 world. In addition, there will be
-              additional perks within our metaverse Private Island for Lazy Lion
-              Apes NFT holders.
+              the community, each holder will experience our P2E game on THE
+              ISLAND. In addition to the different perks and prizes within our
+              metaverse environment, holders will benefit from a BLA Chalet, a
+              networking experience and airdrop surprises.
             </p>
-            <a href="https://discord.gg/fPWMrWvPEX" target="_blank" rel="noreferrer" className="btn button">Join Discord</a>
+            <a
+              href="https://discord.gg/fPWMrWvPEX"
+              target="_blank"
+              rel="noreferrer"
+              className="btn button"
+            >
+              Join Discord
+            </a>
           </Col>
         </Row>
       </Container>
